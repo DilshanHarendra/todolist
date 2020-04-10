@@ -1,0 +1,86 @@
+body{
+    background-color: #e9ecef;
+
+}
+.box{
+    background-color: white;
+    padding: 30px;
+    padding-bottom: 20px;
+}
+
+.jumbotron{
+    background-color: white;
+    width: 98%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.polaroid {
+    width: 96%;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 10px;
+    display: flex;
+}
+.btn{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 200px;
+}
+.form-control{
+    width: 90%;
+    margin-left: 5%;
+}
+label {
+    margin-left: 5%;
+}
+.ebtn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.dbtn {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.donebtn{
+    background-color: greenyellow;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.event{
+    width: 80%;
+}
+
+.updateBox{
+    width: 96%;
+    margin-right: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: green 1px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
