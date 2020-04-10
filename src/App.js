@@ -1,16 +1,28 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import './App.css';
+import Home from "./Component/Home";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+class App extends  Component{
 
-       <h1>Hello World</h1>
-      </header>
-    </div>
-  );
+
+
+  state ={users:[]}
+
+  componentDidMount() {
+
+  }
+
+
+  render(){
+      //const values= this.state.users.map(user=><li key={user.id}>{user.username}</li> )
+
+    return ( <div className="App">
+            <Home/>
+      </div>
+    );
+  }
+
 }
 
 export default App;
